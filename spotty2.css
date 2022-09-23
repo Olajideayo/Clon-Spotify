@@ -1,0 +1,973 @@
+body{
+    background-color: black;
+}
+
+.left{
+    width: 250px;
+    height: 98vh;
+    border: 1px solid black;
+    background-color: black;
+    /* display: flex; */
+    /* justify-content: center; */
+    position: fixed;
+}
+.AA{
+    display: flex;
+}
+.A{
+    margin-left: 20px;
+}
+.a1{
+    margin-top: 15px;
+    /* margin-left: -20px; */
+}
+.a2{
+    color: white;
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+.hom{
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+.a22{
+    color:#D8D8D8;
+    margin: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+.aa2{
+    color:#D8D8D8;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+.lib{
+    margin-left: 8px;
+    cursor: pointer;
+    color: white;
+
+}
+.search{
+    margin-left: 10px;
+    cursor: pointer;
+    color: #D8D8D8;
+
+}
+.ANC{
+    text-decoration: none;
+}
+.search:hover{
+    color: white;
+}
+.a3{
+    color: #D8D8D8;
+    margin: 25px 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.play1{
+    margin-left: 10px;
+    color: grey;
+}
+.play1:hover{
+    color: white;
+}
+.lik{
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.lik:hover{
+    color: white;
+}
+.a33{
+    color: white;
+    margin-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.a4{
+    color:#D8D8D8 ;
+    margin-bottom: 15px;
+}
+.a44{
+    margin-top: 150px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+.right{
+    width: 80%;
+    height: 250vh;
+    border: 1px solid black;
+    background-color: rgb(17, 16, 16);
+    margin-left: 22%;
+    
+    
+}
+.a5{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    right: 0;
+    margin-top: 0px;
+    padding: 0px;
+}
+.a6{
+    margin-left: 15px;
+}
+.a8{
+width: 300px;
+height: 40px;
+border: 1px solid black;
+margin-left: 230px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.a10{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-weight: 15PX;
+    color: #D8D8D8;
+}
+.a10:hover{
+       color: white;
+       box-shadow: 5px 5px 5px black,-5px -5px 5px black;
+       cursor: pointer;
+}
+.a11{
+    margin-left: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 15PX;
+    color: #D8D8D8;
+}
+.a11:hover{
+    color: white;
+    box-shadow: 2px 2px 2px black, -2px -2px 2px black;
+    cursor: pointer;
+}
+.a12{
+    margin-left: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 15PX;
+    color: #D8D8D8;
+}
+.a12:hover{
+    color: white;
+    box-shadow: 3px 3px 3px black,-3px -3px 3px black;
+    cursor: pointer;
+}
+.a13{
+    width: 220px;
+    height: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+}
+.a14{
+    width: 100px;
+    height: 45px;
+    margin-left: 15px;
+    border-radius: 25px;
+    color: black;
+    border: none;
+    background-color: white;
+    
+}
+.a14:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px white, -1px -1px 1px white;
+}
+.a15{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.a16{
+    margin-right: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 15PX;
+    color: #D8D8D8;
+}
+.a16:hover{
+    cursor: pointer;
+    color: white;
+    box-shadow: 3px 3px 3px black,-3px -3px 3px black ;
+    /* text-decoration: none; */
+}
+.a1616{
+    text-decoration: none;
+}
+.a17{
+    width: 100%;
+    height: 13vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(17, 16, 16);
+    
+}
+.a18{
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    position: relative;
+    width: 120px;
+    /* border: 1px solid white; */
+    cursor: pointer;
+}
+.a18::after{
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: 20px;
+    content: " ";
+    transition-duration: 0s;
+    transition-delay: 0s;
+    position: absolute;
+    
+}
+.a18:hover::after{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.a19{
+    margin-top: 50px;
+    font-size: 13px;
+    margin-right: 20px;
+    color: grey;
+    position: relative;
+    cursor: pointer;
+}
+.a19::after{
+    width: 0;height: 0;left: 0;bottom: 2px;content: "";transition-duration: 0s;
+    transition-delay: 0s;position: absolute;
+}
+.a19:hover::after{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+.B{
+    width: 100%;
+    height: 55vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 5%; */
+}
+.b1{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.b1:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.b1:hover .bb2{
+    visibility: visible;
+}
+.b2{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(imgbck.jpg);
+    background-size: cover
+    
+}
+.bb2{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    position: absolute;
+    top: 54%;
+    right: 17%;
+    width: 40px; height:40px;
+    visibility: hidden;
+    
+    
+}
+.b22:hover{
+   box-shadow: 1px 1px 2px,-1px -1px 2px;
+}
+
+.b3{
+    margin-left: 30px;
+}
+.b33{
+    color: white;
+}
+.b333{
+    color: grey;
+    font-size: 13px;
+}
+.b4{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.b4:hover .bb5{
+    visibility: visible;
+}
+.b4:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.b5{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg2.jpg);
+    background-size: cover
+}
+.bb5{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    position: absolute;
+    top: 54%;
+    right: 17%;
+    visibility: hidden;
+    width: 40px; height:40px
+}
+.b6{
+    margin-left: 30px;
+}
+.b66{
+    color: white;
+}
+.b666{
+    color: grey;
+    font-size: 13px;
+}
+.b7{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.b7:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.b7:hover .bb8{
+    visibility: visible;
+}
+.b8{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg3.jpg);
+    background-size: cover;
+}
+.bb8{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    top: 54%;
+    right: 17%;
+    position: absolute;
+    visibility: hidden;
+    width: 40px; height:40px
+    
+}
+.b9{
+    margin-left: 30px;
+}
+.b99{
+    color: white;
+}
+.b999{
+    color: grey;
+    font-size: 13px;
+}
+.b10{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.b10:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.b10:hover .bb11{
+    visibility: visible;
+}
+
+.b11{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg4.png);
+    background-size: cover;
+}
+.bb11{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    visibility: hidden;
+    position: absolute;
+    top: 54%;
+    right: 17%;
+    width: 40px; height:40px
+}
+.b12{
+    margin-left: 30px;
+}
+.b122{
+    color: white;
+}
+.b1222{
+    color: grey;
+    font-size: 13px;
+    
+}
+.b13{
+    width: 100%;
+    height: 12vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.b14{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    width: 55px;
+    /* border: 1px solid white; */
+    cursor: pointer;
+}
+.b14::after{
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: 20px;
+    position: absolute;
+    transition-delay: 0s;
+    transition-duration: 0s;
+    
+}
+.b14:hover::after{
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    
+}
+.b15{
+    margin-top: 40px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 13px;
+    /* font-weight: bold; */
+    color: grey;
+    margin-right: 15px;
+    position: relative;
+}
+.b15::after{
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: 5px;
+    transition-duration: 0s;
+    transition-delay: 0s;
+    position: absolute;
+
+}
+.b15:hover::after{
+    background-color: white;
+    width: 100%;
+    height: 1px;
+}
+.C{
+    width: 100%;
+    height: 55vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.c1{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.c1:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.c1:hover .cc2{
+    visibility: visible;
+}
+.c2{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg5.jpg);
+    background-size: cover;
+}
+.cc2{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    position: absolute;
+    visibility: hidden;
+    top: 54%;
+    right: 17%;
+    width: 40px; height:40px
+}
+.c3{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.c33{
+    color: white;
+}
+.c333{
+    color: grey;
+    font-size: 13px;
+}
+.c4{
+    width: 200px;
+    height: 270px;
+    border: 1px solid/ black;
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.c4:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.c4:hover .cc5{
+    visibility: visible;
+}
+.c5{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg6.jpg);
+    background-size: cover;
+}
+.cc5{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    position: absolute;
+    visibility: hidden;
+    top: 54%;
+    right: 17%;
+    width: 40px; height:40px
+}
+.c6{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.c66{
+    color: white;
+}
+.c666{
+    color: grey;
+    font-size: 13px;
+}
+.c7{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.c7:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.c7:hover .cc8{
+    visibility: visible;
+}
+.c8{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg7.jpg);
+    background-size: cover;
+}
+.cc8{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    position: absolute;
+    visibility: hidden;
+    top: 54%;
+    right: 17%;
+    width: 40px; height:40px
+}
+.c9{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.c99{
+    color: white;
+}
+.c999{
+    color: grey;
+    font-size: 13px;
+}
+.c10{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.c10:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.c10:hover .cc11{
+    visibility: visible;
+}
+.c11{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg8.jpg);
+    background-size: cover;
+}
+.cc11{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    position: absolute;
+    visibility: hidden;
+    top: 54%;
+    right: 17%;
+    width: 40px; height:40px
+}
+.c12{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.c122{
+    color: white;
+}
+.c1222{
+    color: grey;
+    font-size: 13px;
+}
+.c13{
+    width: 100%;
+    height: 12vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.c14{
+    margin-top: 15px;
+}
+.c15{
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    width: 70px;
+}
+.c15::after{
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: 4px;
+    transition-duration: 0s;
+    transition-delay: 0s;
+    position: absolute;
+}
+.c15:hover::after{
+    background-color: white;
+    width: 100%;
+    height: 1px;
+}
+.c16{
+    color: grey;
+    margin-left: 15px;
+    font-size: 13px;
+}
+.c17{
+    margin-top: 40px;
+    position: relative;
+    font-size: 13px;
+    width: 60px;
+    color: grey;
+    margin-right: 15px
+    
+}
+.c17::after{
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: 4px;
+    transition-delay: 0s;
+    transition-duration: 0s;
+    position: absolute;
+}
+.c17:hover::after{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    cursor: pointer;
+}
+.D{
+    width: 100%;
+    height: 55vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.d1{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.d1:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.d1:hover .dd2{
+    visibility: visible;
+}
+.d2{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg9.png);
+    background-size: cover;
+}
+.dd2{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    position: absolute;
+    visibility: hidden;
+    top: 54%;
+    right: 17%;
+    width: 40px; height:40px
+}
+.d3{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.d33{
+    color: white;
+}
+.d333{
+    color: grey;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.d4{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.d4:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.d4:hover .dd5{
+    visibility: visible;
+}
+.d5{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg10.png);
+    background-size: cover;
+}
+.dd5{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    position: absolute;
+    visibility: hidden;
+    top: 54%;
+    right: 17%;
+    width: 40px; height:40px
+}
+.d6{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.d66{
+    color: white;
+}
+.d666{
+    color: grey;
+    font-size: 13px;
+}
+.d7{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.d7:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.d7:hover .dd8{
+    visibility: visible;
+}
+.d8{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg11.jpg);
+    background-size: cover;
+}
+.dd8{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    position: absolute;
+    visibility: hidden;
+    top: 54%;
+    right: 17%;
+    width: 40px; height:40px
+}
+.d9{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.d99{
+    color: white;
+}
+.d999{
+    color: grey;
+    font-size: 13px;
+}
+.d10{
+    width: 200px;
+    height: 270px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgb(51, 48, 48);
+    position: relative;
+}
+.d10:hover{
+    box-shadow: 1px 1px 1px rgb(51, 48, 48), -1px -1px 1px rgb(51, 48, 48);
+    cursor: pointer;
+}
+.d10:hover .dd10{
+    visibility: visible;
+}
+.dd10{
+    /* margin-top: 125px; */
+    /* margin-left: 95px; */
+    position: absolute;
+    visibility: hidden;
+    top: 54%;
+    right: 17%;
+    width: 40px; height:40px
+}
+.d11{
+    width: 140px;
+    height: 170px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-image: url(bckimg12.jpg);
+    background-size: cover;
+}
+.d12{
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.d122{
+    color: white;
+}
+.d1222{
+    color: grey;
+    font-size: 13px;
+}
